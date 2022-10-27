@@ -4,14 +4,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sirupsen/logrus"
 	"github.com/dropbox/godropbox/container/set"
-	"github.com/pritunl/pritunl-zero/authority"
-	"github.com/pritunl/pritunl-zero/bastion"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/ozean12/pritunl-zero/authority"
+	"github.com/ozean12/pritunl-zero/bastion"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/utils"
+	"github.com/sirupsen/logrus"
 )
 
 func bastionEnabled() bool {

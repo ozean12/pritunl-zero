@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/dropbox/godropbox/errors"
+	"github.com/ozean12/pritunl-zero/alert"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/errortypes"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/alert"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
 )
 
 const (

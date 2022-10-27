@@ -4,8 +4,8 @@ import (
 	"os"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/errortypes"
 	"github.com/sirupsen/logrus"
 )
 

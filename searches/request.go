@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/dropbox/godropbox/container/set"
-	"github.com/pritunl/pritunl-zero/search"
+	"github.com/ozean12/pritunl-zero/search"
 )
 
 var (

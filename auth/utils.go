@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/pritunl/pritunl-zero/cookie"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/ozean12/pritunl-zero/cookie"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/service"
+	"github.com/ozean12/pritunl-zero/session"
+	"github.com/ozean12/pritunl-zero/utils"
 )
 
 func Get(db *database.Database, state string) (tokn *Token, err error) {

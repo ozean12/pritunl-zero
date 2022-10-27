@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/dropbox/godropbox/container/set"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/user"
 )
 
 func SyncUser(db *database.Database, usr *user.User) (

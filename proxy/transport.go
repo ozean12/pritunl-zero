@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/node"
 )
 
 type TransportFix struct {

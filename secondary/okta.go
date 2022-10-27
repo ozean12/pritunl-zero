@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sirupsen/logrus"
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/ozean12/pritunl-zero/audit"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/user"
+	"github.com/sirupsen/logrus"
 )
 
 var (

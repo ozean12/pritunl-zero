@@ -1,9 +1,9 @@
 package cmd
 
 import (
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/log"
 	"github.com/sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/log"
 )
 
 func ClearLogs() (err error) {

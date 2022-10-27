@@ -3,13 +3,13 @@ package authorizer
 import (
 	"net/http"
 
+	"github.com/ozean12/pritunl-zero/cookie"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/service"
+	"github.com/ozean12/pritunl-zero/session"
+	"github.com/ozean12/pritunl-zero/signature"
+	"github.com/ozean12/pritunl-zero/user"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/cookie"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/service"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/signature"
-	"github.com/pritunl/pritunl-zero/user"
 )
 
 type Authorizer struct {

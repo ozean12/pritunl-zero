@@ -10,12 +10,12 @@ import (
 	"github.com/dropbox/godropbox/errors"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
-	"github.com/pritunl/pritunl-zero/authority"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/demo"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/ozean12/pritunl-zero/authority"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/demo"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/event"
+	"github.com/ozean12/pritunl-zero/utils"
 	"github.com/sirupsen/logrus"
 )
 

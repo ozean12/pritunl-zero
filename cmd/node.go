@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/dropbox/godropbox/errors"
+	"github.com/ozean12/pritunl-zero/config"
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/router"
+	"github.com/ozean12/pritunl-zero/sync"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/router"
-	"github.com/pritunl/pritunl-zero/sync"
 	"github.com/sirupsen/logrus"
 )
 

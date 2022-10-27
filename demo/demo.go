@@ -4,15 +4,15 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/ozean12/pritunl-zero/agent"
+	"github.com/ozean12/pritunl-zero/audit"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/log"
+	"github.com/ozean12/pritunl-zero/session"
+	"github.com/ozean12/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/ssh"
+	"github.com/ozean12/pritunl-zero/subscription"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/agent"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/log"
-	"github.com/pritunl/pritunl-zero/session"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/ssh"
-	"github.com/pritunl/pritunl-zero/subscription"
 )
 
 func IsDemo() bool {

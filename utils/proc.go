@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/errortypes"
 	"github.com/sirupsen/logrus"
 )
 

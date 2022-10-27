@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/node"
 	"github.com/sirupsen/logrus"
 )
 

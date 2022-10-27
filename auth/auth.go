@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/ozean12/pritunl-zero/database"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/database"
 )
 
 var (

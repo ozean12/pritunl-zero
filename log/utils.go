@@ -1,12 +1,12 @@
 package log
 
 import (
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/event"
+	"github.com/ozean12/pritunl-zero/utils"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
 	"github.com/pritunl/mongo-go-driver/mongo/options"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/utils"
 )
 
 func Get(db *database.Database, logId primitive.ObjectID) (

@@ -5,15 +5,15 @@ import (
 	"time"
 
 	"github.com/dropbox/godropbox/container/set"
+	"github.com/ozean12/pritunl-zero/agent"
+	"github.com/ozean12/pritunl-zero/authority"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/user"
+	"github.com/ozean12/pritunl-zero/utils"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
 	"github.com/pritunl/mongo-go-driver/mongo/options"
-	"github.com/pritunl/pritunl-zero/agent"
-	"github.com/pritunl/pritunl-zero/authority"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/user"
-	"github.com/pritunl/pritunl-zero/utils"
 )
 
 type Info struct {

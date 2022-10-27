@@ -3,10 +3,10 @@ package agent
 import (
 	"net/http"
 
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/geo"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/geo"
+	"github.com/ozean12/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/settings"
 	"github.com/sirupsen/logrus"
 	"github.com/ua-parser/uap-go/uaparser"
 )

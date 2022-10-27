@@ -5,15 +5,15 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/sirupsen/logrus"
 	"github.com/dropbox/godropbox/errors"
+	"github.com/ozean12/pritunl-zero/config"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/user"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/settings"
-	"github.com/pritunl/pritunl-zero/user"
+	"github.com/sirupsen/logrus"
 )
 
 func Mongo() (err error) {

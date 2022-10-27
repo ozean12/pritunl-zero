@@ -25,10 +25,10 @@ var (
 		"/usr/share/pritunl-zero/www",
 		path.Join(
 			build.Default.GOPATH,
-			"src/github.com/pritunl/pritunl-zero/www/dist",
+			"src/github.com/ozean12/pritunl-zero/www/dist",
 		),
 	}
 	StaticTestingRoot = []string{
-		"/home/cloud/go/src/github.com/pritunl/pritunl-zero/www/dist-dev",
+		"/home/cloud/go/src/github.com/ozean12/pritunl-zero/www/dist-dev",
 	}
 )

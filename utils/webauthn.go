@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/dropbox/godropbox/errors"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/errortypes"
 	"github.com/pritunl/webauthn/protocol"
 )
 

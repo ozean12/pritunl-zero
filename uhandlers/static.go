@@ -4,11 +4,11 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/authorizer"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/static"
-	"github.com/pritunl/pritunl-zero/utils"
+	"github.com/ozean12/pritunl-zero/authorizer"
+	"github.com/ozean12/pritunl-zero/config"
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/static"
+	"github.com/ozean12/pritunl-zero/utils"
 )
 
 func staticPath(c *gin.Context, pth string, cache bool) {

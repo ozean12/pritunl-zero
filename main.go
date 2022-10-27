@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/pritunl/pritunl-zero/cmd"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/logger"
-	"github.com/pritunl/pritunl-zero/requires"
-	"github.com/pritunl/pritunl-zero/task"
+	"github.com/ozean12/pritunl-zero/cmd"
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/logger"
+	"github.com/ozean12/pritunl-zero/requires"
+	"github.com/ozean12/pritunl-zero/task"
 )
 
 const help = `

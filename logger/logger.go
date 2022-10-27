@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/requires"
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/requires"
 	"github.com/sirupsen/logrus"
 )
 

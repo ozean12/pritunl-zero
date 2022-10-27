@@ -1,10 +1,10 @@
 package task
 
 import (
+	"github.com/ozean12/pritunl-zero/acme"
+	"github.com/ozean12/pritunl-zero/certificate"
+	"github.com/ozean12/pritunl-zero/database"
 	"github.com/sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/acme"
-	"github.com/pritunl/pritunl-zero/certificate"
-	"github.com/pritunl/pritunl-zero/database"
 )
 
 var acmeRenew = &Task{

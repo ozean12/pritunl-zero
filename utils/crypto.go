@@ -9,8 +9,8 @@ import (
 	"regexp"
 
 	"github.com/dropbox/godropbox/errors"
+	"github.com/ozean12/pritunl-zero/errortypes"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/errortypes"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	"github.com/dropbox/godropbox/container/set"
 	"github.com/dropbox/godropbox/errors"
 	"github.com/opensearch-project/opensearch-go"
-	"github.com/pritunl/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/errortypes"
 )
 
 var (

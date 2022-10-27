@@ -46,10 +46,10 @@ sudo yum -y install mongodb-org
 sudo service mongod start
 
 # Install Pritunl Zero
-go get -u github.com/pritunl/pritunl-zero
+go get -u github.com/ozean12/pritunl-zero
 
 # Run Pritunl Zero (must be run from source directory)
-cd ~/go/src/github.com/pritunl/pritunl-zero
+cd ~/go/src/github.com/ozean12/pritunl-zero
 sudo ~/go/bin/pritunl-zero start
 ```
 

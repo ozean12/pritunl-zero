@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/dropbox/godropbox/errors"
+	"github.com/ozean12/pritunl-zero/agent"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/rokey"
+	"github.com/ozean12/pritunl-zero/user"
+	"github.com/ozean12/pritunl-zero/utils"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/agent"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/rokey"
-	"github.com/pritunl/pritunl-zero/user"
-	"github.com/pritunl/pritunl-zero/utils"
 )
 
 type Session struct {

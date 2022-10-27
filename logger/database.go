@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/log"
 	"github.com/sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/log"
 )
 
 var (

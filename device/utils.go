@@ -3,10 +3,10 @@ package device
 import (
 	"time"
 
+	"github.com/ozean12/pritunl-zero/database"
 	"github.com/pritunl/mongo-go-driver/bson"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
 	"github.com/pritunl/mongo-go-driver/mongo/options"
-	"github.com/pritunl/pritunl-zero/database"
 )
 
 func Get(db *database.Database, devcId primitive.ObjectID) (

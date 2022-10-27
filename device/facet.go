@@ -1,7 +1,7 @@
 package device
 
 import (
-	"github.com/pritunl/pritunl-zero/settings"
+	"github.com/ozean12/pritunl-zero/settings"
 )
 
 type FacetVersion struct {

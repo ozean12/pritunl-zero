@@ -4,12 +4,12 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/config"
-	"github.com/pritunl/pritunl-zero/constants"
-	"github.com/pritunl/pritunl-zero/handlers"
-	"github.com/pritunl/pritunl-zero/middlewear"
-	"github.com/pritunl/pritunl-zero/requires"
-	"github.com/pritunl/pritunl-zero/static"
+	"github.com/ozean12/pritunl-zero/config"
+	"github.com/ozean12/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/handlers"
+	"github.com/ozean12/pritunl-zero/middlewear"
+	"github.com/ozean12/pritunl-zero/requires"
+	"github.com/ozean12/pritunl-zero/static"
 )
 
 var (

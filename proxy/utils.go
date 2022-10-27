@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/ozean12/pritunl-zero/node"
+	"github.com/ozean12/pritunl-zero/utils"
 	"github.com/sirupsen/logrus"
-	"github.com/pritunl/pritunl-zero/node"
-	"github.com/pritunl/pritunl-zero/utils"
 )
 
 func WriteError(w http.ResponseWriter, r *http.Request, code int, err error) {

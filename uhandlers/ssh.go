@@ -6,17 +6,17 @@ import (
 
 	"github.com/dropbox/godropbox/errors"
 	"github.com/gin-gonic/gin"
-	"github.com/pritunl/pritunl-zero/audit"
-	"github.com/pritunl/pritunl-zero/authorizer"
-	"github.com/pritunl/pritunl-zero/challenge"
-	"github.com/pritunl/pritunl-zero/database"
-	"github.com/pritunl/pritunl-zero/device"
-	"github.com/pritunl/pritunl-zero/errortypes"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/secondary"
-	"github.com/pritunl/pritunl-zero/ssh"
-	"github.com/pritunl/pritunl-zero/utils"
-	"github.com/pritunl/pritunl-zero/validator"
+	"github.com/ozean12/pritunl-zero/audit"
+	"github.com/ozean12/pritunl-zero/authorizer"
+	"github.com/ozean12/pritunl-zero/challenge"
+	"github.com/ozean12/pritunl-zero/database"
+	"github.com/ozean12/pritunl-zero/device"
+	"github.com/ozean12/pritunl-zero/errortypes"
+	"github.com/ozean12/pritunl-zero/event"
+	"github.com/ozean12/pritunl-zero/secondary"
+	"github.com/ozean12/pritunl-zero/ssh"
+	"github.com/ozean12/pritunl-zero/utils"
+	"github.com/ozean12/pritunl-zero/validator"
 )
 
 var (

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/pritunl/pritunl-zero/cmd"
-	"github.com/pritunl/pritunl-zero/constants"
+	"github.com/ozean12/pritunl-zero/cmd"
+	"github.com/ozean12/pritunl-zero/constants"
 	"testing"
 )
 

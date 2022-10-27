@@ -1,4 +1,4 @@
-module github.com/pritunl/pritunl-zero
+module github.com/ozean12/pritunl-zero
 
 go 1.17
 

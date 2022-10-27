@@ -3,9 +3,9 @@ package challenge
 import (
 	"sync"
 
+	"github.com/ozean12/pritunl-zero/event"
+	"github.com/ozean12/pritunl-zero/requires"
 	"github.com/pritunl/mongo-go-driver/bson/primitive"
-	"github.com/pritunl/pritunl-zero/event"
-	"github.com/pritunl/pritunl-zero/requires"
 )
 
 var (
